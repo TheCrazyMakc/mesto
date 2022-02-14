@@ -9,122 +9,121 @@
 </head>
 <body class="page">
 
-    <header class="header">
-        <img src="./images/logo.svg" alt="логотип" class="header__logo">
-    </header>
+  <header class="header">
+      <img src="./images/logo.svg" alt="логотип" class="header__logo">
+  </header>
 
-    <main class="content">
+  <main class="content">
 
-        <section class="profile">
-            <img src="./images/avatar.png" alt="аватарка" class="profile__avatar">
-            <div class="profile__info">
-                <h1 class="profile__name">Жак-Ив Кусто</h1>
-                <p class="profile__text">Исследователь океана</p>
-                <button class="profile__edit-button" type="button">Редактировать</button>
+    <section class="profile">
+        <img src="./images/avatar.png" alt="аватарка" class="profile__avatar">
+        <div class="profile__info">
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <p class="profile__text">Исследователь океана</p>
+            <button class="profile__edit-button" type="button">Редактировать</button>
+        </div>
+        <button class="profile__add-button" type="button">Добавить фото</button>
+    </section>
+
+    <section class="elements">
+        <ul class="elements__list">
+
+          <li class="elements__item">
+            <img class="elements__photo"
+            src="./images/img1.jpg"
+            alt="ноутбук">
+            <div class="elements__description">
+                <h3 class="elements__title">
+                  Если долго
+                </h3>
+                <button class="elements__like" type="button"></button>
             </div>
-            <button class="profile__add-button" type="button">Добавить фото</button>
-        </section>
+          </li>
 
-        <section class="elements">
-            <ul class="elements__list">
+          <li class="elements__item">
+            <img class="elements__photo"
+            src="./images/img2.jpg"
+            alt="ноутбук">
+            <div class="elements__description">
+                <h3 class="elements__title">
+                  Сидеть за
+                </h3>
+                <button class="elements__like" type="button"></button>
+            </div>
+          </li>
 
-              <li class="elements__item">
-                <img class="elements__photo"
-                src="./images/img1.jpg"
-                alt="ноутбук">
-                <div class="elements__description">
-                    <h3 class="elements__title">
-                      Если долго
-                    </h3>
-                    <button class="elements__like" type="button"></button>
-                </div>
-              </li>
+          <li class="elements__item">
+            <img class="elements__photo"
+            src="./images/img3.jpg"
+            alt="ноутбук">
+             <div class="elements__description">
+                <h3 class="elements__title">
+                  Компьютером
+                </h3>
+                <button class="elements__like" type="button"></button>
+            </div>
+          </li>
 
-              <li class="elements__item">
-                <img class="elements__photo"
-                src="./images/img2.jpg"
-                alt="ноутбук">
-                <div class="elements__description">
-                    <h3 class="elements__title">
-                      Сидеть за
-                    </h3>
-                    <button class="elements__like" type="button"></button>
-                </div>
-              </li>
+          <li class="elements__item">
+            <img class="elements__photo"
+            src="./images/img4.jpg"
+            alt="ноутбук">
+            <div class="elements__description">
+                <h3 class="elements__title">
+                  Особенно ночью
+                </h3>
+                <button class="elements__like" type="button"></button>
+            </div>
+          </li>
 
-              <li class="elements__item">
-                <img class="elements__photo"
-                src="./images/img3.jpg"
-                alt="ноутбук">
-                <div class="elements__description">
-                    <h3 class="elements__title">
-                      Компьютером
-                    </h3>
-                    <button class="elements__like" type="button"></button>
-                </div>
-              </li>
+          <li class="elements__item">
+            <img class="elements__photo"
+            src="./images/img5.jpg"
+            alt="кукушка">
+            <div class="elements__description">
+                <h3 class="elements__title">
+                  Может поехать
+                </h3>
+                <button class="elements__like" type="button"></button>
+            </div>
+          </li>
 
-              <li class="elements__item">
-                <img class="elements__photo"
-                src="./images/img4.jpg"
-                alt="ноутбук">
-                <div class="elements__description">
-                    <h3 class="elements__title">
-                      Особенно ночью
-                    </h3>
-                    <button class="elements__like" type="button"></button>
-                </div>
-              </li>
+          <li class="elements__item">
+            <img class="elements__photo"
+            src="./images/img6.jpg"
+            alt="белка">
+            <div class="elements__description">
+                <h3 class="elements__title">
+                  Или придет
+                </h3>
+                <button class="elements__like" type="button"></button>
+            </div>
+          </li>
 
-              <li class="elements__item">
-                <img class="elements__photo"
-                src="./images/img5.jpg"
-                alt="кукушка">
-                <div class="elements__description">
-                    <h3 class="elements__title">
-                      Может поехать
-                    </h3>
-                    <button class="elements__like" type="button"></button>
-                </div>
-              </li>
+        </ul>
+    </section>
 
-              <li class="elements__item">
-                <img class="elements__photo"
-                src="./images/img6.jpg"
-                alt="белка">
-                <div class="elements__description">
-                    <h3 class="elements__title">
-                      Или придет
-                    </h3>
-                    <button class="elements__like" type="button"></button>
-                </div>
-              </li>
+  </main>
 
-            </ul>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        &copy; 2022 Mesto Russia
-    </footer>
+  <footer class="footer">
+      &copy; 2022 Mesto Russia
+  </footer>
 
     <!-- POPUP -->
 
-    <div class="popup">
-      <div class="popup__container">
-        <h3 class="popup__title">Редактировать профиль</h3>
-        <form class="popup__form">
-          <input class="popup__field popup__field_name"
-          type="text" name="username" value="Жак-Ив Кусто">
-          <input class="popup__field popup__field_description"
-          type="text" name="description" value="Исследователь океана">
-          <button class="popup__save-button" type="submit">Сохранить</button>
-          <button class="popup__exit-button" type="button"></button>
-        </form>
-      </div>
-
+  <div class="popup">
+    <div class="popup__container">
+      <h3 class="popup__title">Редактировать профиль</h3>
+      <form class="popup__form">
+        <input class="popup__field popup__field_name"
+        type="text" name="username" value="Жак-Ив Кусто">
+        <input class="popup__field popup__field_description"
+        type="text" name="description" value="Исследователь океана">
+        <button class="popup__save-button" type="submit">Сохранить</button>
+        <button class="popup__exit-button" type="button"></button>
+      </form>
     </div>
+  </div>
 
 <script src="./scripts/index.js"></script>
 
