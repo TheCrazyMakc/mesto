@@ -7,6 +7,6 @@
   line-height: 1.2;
   font-weight: 900;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  text-overflow: ellipsis; /* Текст обрезается и к концу строки добавляется многоточие.*/
+  white-space: nowrap; /* Пробелы не учитываются, переносы строк в коде HTML игнорируются, весь текст отображается одной строкой */
 }
