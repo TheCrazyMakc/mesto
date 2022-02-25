@@ -1,13 +1,13 @@
 .profile__add-button {
   width: 22px;
   height: 22px;
-  background-image: url('../../../images/addplus.png');
+  background-image: url('../../../images/addplus.svg');
   padding: 22px 74px;
   border: 2px solid white;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin: 33px 0 auto auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .profile__add-button:hover {

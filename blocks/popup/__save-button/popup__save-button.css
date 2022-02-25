@@ -7,15 +7,15 @@
     border: none;
     border-radius: 2px;
 }
-  
+
 .popup__save-button:hover {
     background-color: rgba(0, 0, 0, 0.8);
     cursor: pointer;
 }
-  
+
 @media screen and (max-width: 767px) {
     .popup__save-button {
-      width: 248px;
-      margin: 48px auto auto;
+      width: 238px;
+      margin: 45px auto auto;
     }
 }

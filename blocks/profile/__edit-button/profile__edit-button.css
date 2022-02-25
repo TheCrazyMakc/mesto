@@ -4,8 +4,8 @@
     background-image: url('../../../images/EditButton.svg');
     padding: 10px;
     border: 1px solid white;
-    margin: 16px 0 auto 20px;
-    background-color: black;
+    margin: 16px 0 auto 18px;
+    background-color: rgba(0, 0, 0, 0);
     background-position: 50% 50%;
     background-repeat: no-repeat;
   }
@@ -20,6 +20,6 @@
       width: 6px;
       height: 6px;
       padding: 8px;
-      margin: 19px 0 0 7px;
+      margin: 8px 0 0 10px;
     }
   }
