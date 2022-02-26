@@ -1,5 +1,6 @@
 .popup__field {
-    height: 57px;
+    min-height: 27px;
+    margin-top: 30px;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     background-color: transparent;
@@ -13,4 +14,10 @@
 
 .popup__field:focus {
     outline-color: #bcbcc4;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__field {
+    padding-top: 0;
+  }
 }

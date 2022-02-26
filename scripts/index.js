@@ -7,18 +7,26 @@ const popupFieldDescription = popup.querySelector('.popup__field_description');
 const profileName = document.querySelector('.profile__name');
 const profileDescription = document.querySelector('.profile__description');
 
-const popupToggle = function() {
+/*const popupToggle = function() {
   popup.classList.toggle('popup_opened');
+}*/
+
+const openPopup = function() {
+  popup.classList.add('popup_opened');
 }
 
-profileEditButton.addEventListener('click', popupToggle);
-popupExitButton.addEventListener('click', popupToggle);
+const openClose = function() {
+  popup.classList.remove('popup_opened');
+}
+
+profileEditButton.addEventListener('click', openPopup);
+popupExitButton.addEventListener('click', openClose);
 
 function formSubmitHandler (evt) {
   evt.preventDefault();
   profileName.textContent = popupFieldName.value;
   profileDescription.textContent = popupFieldDescription.value;
-  popupToggle();
+  openClose();
 }
 
 formElement.addEventListener('submit', formSubmitHandler);
